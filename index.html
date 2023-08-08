@@ -5,11 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="/logo.jpg" type="image/x-icon">
     <title>Animeroom</title>
 </head>
 <body>
-    <h1>Animeroom</h1>
+    <header>
+        <nav class="header__nav">
+            <div class="header__logo">
+                <h4>Animeroom</h4>
+                <div class="header__logo-overlay"></div>
+            </div>
+            <ul class="header__menu">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#menu">Characters</a></li>
+                <li><a href="#menu">Shows</a></li>
+                <li><a href="#menu">About</a></li>
+                <li><img src="assets/search.svg" alt="search"></li>
+            </ul>
+
+            <ul class="header__menu-mobile">
+                <li><img src="assets/menu.svg" alt="menu"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets/naruto.png" alt="naruto">
+            <h2>な<br>
+                る<br>
+                と
+            </h2>
+            <div class="hero-image__overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-content-info">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Every one of us must do what's in their power</p>
+                <div class="hero-content__buttons">
+                    <button class="hero-content__order-button">Order Now</button>
+                    <button class="hero-content__play-button">
+                        <img src="" alt="play">
+                        How to order
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-content__testimonial">
+                <div class="hero-content__customer flex-center" >
+                    <h4>24<span>4k+</span></h4>
+                    <p>Happy Customers</p>
+                </div>
+
+                <div class="hero-content__review">
+                    <img src="" alt="user">
+                    <p>"Best japanese food service exiested ever</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <script src="js/script.js" type="module"></script>
 </body>

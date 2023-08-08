@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
 
 
+/* Other style files */
+
+@import url("sections/header.css");
+@import url("sections/hero.css");
+
+
 /*-------------- css variables---------------- */
 
 :root {
     --quicksand: "Quicksand", serif;
 
-    --primary-color: #b1454a;
+    --primary-color: #f7b450;
     --secondary-color: #121212;
 
     --color-white: #fff;
